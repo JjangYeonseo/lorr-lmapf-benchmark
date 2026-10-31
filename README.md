@@ -1,6 +1,6 @@
 # LoRR LMAPF Benchmark — CPU-only Baseline
 
-> \*\*v0.1.0 candidate — 4-robot smoke-test milestone (not yet tagged).\*\* The first run was \*\*verified on Windows 11 Home + Docker Desktop (linux/amd64) on 2026-10-31\*\*. The published code is a reproducible \*baseline setup\*, not a new MAPF algorithm or a multi-seed research benchmark. GitHub Actions CPU smoke test passed on 2026-10-31. The baseline has been validated locally on Windows Docker Desktop and independently on a GitHub-hosted Linux runner. Reproduction by another lab member remains pending. The `v0.1.0` tag has not yet been created.
+> **v0.1.0 candidate — 4-robot smoke-test milestone (not yet tagged).** The first run was **verified on Windows 11 Home + Docker Desktop (linux/amd64) on 2026-10-31**. The published code is a reproducible *baseline setup*, not a new MAPF algorithm or a multi-seed research benchmark. GitHub Actions CPU smoke test passed on 2026-10-31. The baseline has been validated locally on Windows Docker Desktop and independently on a GitHub-hosted Linux runner. Reproduction by another lab member remains pending. The `v0.1.0` tag has not yet been created.
 
 ## Purpose
 
