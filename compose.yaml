@@ -1,0 +1,20 @@
+services:
+  lorr:
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /workspace
+    volumes:
+      - ./scenarios:/workspace/scenarios:ro
+      - ./results:/workspace/results
+    command:
+      - --inputFile
+      - scenarios/basic_4/problem.json
+      - --output
+      - results/basic_4.json
+      - --simulationTime
+      - "180"
+      - --outputScreen
+      - "1"
+      - --prettyPrintJson

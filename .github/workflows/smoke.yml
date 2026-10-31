@@ -1,0 +1,19 @@
+name: CPU LoRR smoke
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  cpu-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate input files
+        run: python3 scripts/validate_scenario.py
+      - name: Build CPU-only LoRR
+        run: docker compose build lorr
+      - name: Simulate 4 robots
+        run: docker compose run --rm lorr
+      - name: Verify simulator output
+        run: python3 scripts/summarize_result.py

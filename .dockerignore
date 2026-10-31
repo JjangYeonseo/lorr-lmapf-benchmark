@@ -1,0 +1,9 @@
+results/
+examples/
+.git/
+.github/
+__pycache__/
+*.mp4
+*.log
+.venv/
+venv/

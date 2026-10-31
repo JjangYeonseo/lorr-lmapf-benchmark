@@ -1,0 +1,17 @@
+# Same text line endings on Windows/macOS/Linux, preserving executable scripts.
+* text=auto
+*.sh text eol=lf
+*.py text eol=lf
+Dockerfile text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.map text eol=lf
+*.agents text eol=lf
+*.tasks text eol=lf
+*.ps1 text eol=crlf
+*.mp4 binary
+*.png binary
+*.jpg binary
+*.zip binary
