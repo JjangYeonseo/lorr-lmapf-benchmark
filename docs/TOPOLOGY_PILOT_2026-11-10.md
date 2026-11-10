@@ -148,3 +148,21 @@ Use these topology-controlled experiments to identify
 cases where decoupled task scheduling and path
 planning become inefficient, then investigate
 hybrid or congestion-aware MAPD approaches.
+
+## 11. Visual Results
+
+### Scenario Maps
+
+![Six Topology Maps](../figures/topology_pilot_v1/topology_maps.png)
+
+### Task Completion Comparison
+
+![Completed Tasks](../figures/topology_pilot_v1/completed_tasks.png)
+
+### Maze Action Distribution
+
+![Maze Action Distribution](../figures/topology_pilot_v1/maze_actions.png)
+
+These plots summarize one run per scenario.
+Explicit waiting actions are not necessarily
+caused by congestion or deadlock.

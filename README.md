@@ -112,3 +112,15 @@ See [docs/NEXT.md](docs/NEXT.md).
 
 Six controlled topology scenarios with experimental
 results, trajectory analysis and next steps.
+
+### Topology Benchmark Visualizations
+
+**Six scenario maps**
+
+![Topology Maps](figures/topology_pilot_v1/topology_maps.png)
+
+**Completed tasks (10 robots, 360 ticks)**
+
+![Completed Tasks](figures/topology_pilot_v1/completed_tasks.png)
+
+[Full experiment report](docs/TOPOLOGY_PILOT_2026-11-10.md)
