@@ -105,3 +105,10 @@ See [docs/NEXT.md](docs/NEXT.md).
 * Visualization: [PlanViz](https://github.com/MAPF-Competition/PlanViz), MIT licensed; installed separately.
 * Local scripts and scenario files are research additions. Confirm the project's own licensing/approval with the lab before public release. Do not add upstream source trees without preserving license notices.
 
+
+## Topology Pilot (2026-11-10)
+
+[10-Agent Room, Warehouse and Maze Benchmark](docs/TOPOLOGY_PILOT_2026-11-10.md)
+
+Six controlled topology scenarios with experimental
+results, trajectory analysis and next steps.
